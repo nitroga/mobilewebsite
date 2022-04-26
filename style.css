@@ -1,0 +1,47 @@
+@media only screen and (max-width: 500px) {
+    * {
+        font-family: "Trebuchet MS", sans-serif;
+        text-align: center;
+        color: white;
+        border-radius: 15px;
+    }
+
+    main {
+        text-align: center;
+        display: grid;
+        grid-template-rows: 70px 15px 305px 15px 185px 15px 185px 20px 100px;
+        background: rgb(9,9,121);
+        background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(26,165,194,1) 100%);
+    }
+    .head {
+        padding: 6px;
+        display: grid;
+        grid-template-columns: 63px 1fr 170px 1fr 63px;
+        background-color: black;
+    }
+    .menu {
+        color: black;
+        display: grid;
+        grid-template-columns: 85px 10px 1fr;
+    }
+    .menu-text {
+        display: flex;
+        font-size: 33px;
+        align-items: center;    
+    }
+    .button {
+        border-radius: 10px;
+        color: black;
+        font-size: 40px;
+    }
+    .img {
+        margin: auto;
+        max-width: 103%;
+        max-height: 103%;
+    }
+    .info {
+        font-size: 22px;
+        padding: 8px;
+        background-color: black;
+    }
+}
