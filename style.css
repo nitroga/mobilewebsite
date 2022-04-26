@@ -6,12 +6,15 @@
         border-radius: 15px;
     }
 
+    body {
+        background: rgb(9,9,121);
+        background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(26,165,194,1) 100%);
+    }
+
     main {
         text-align: center;
         display: grid;
         grid-template-rows: 70px 15px 305px 15px 185px 15px 185px 20px 100px;
-        background: rgb(9,9,121);
-        background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(26,165,194,1) 100%);
     }
     .head {
         padding: 6px;
