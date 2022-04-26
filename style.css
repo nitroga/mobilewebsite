@@ -2,14 +2,12 @@
     * {
         font-family: "Trebuchet MS", sans-serif;
         text-align: center;
-        color: white;
+        color: #cdd8e8;
         border-radius: 15px;
     }
 
     body {
         background-color: #1e293b;
-        /*background: rgb(9,9,121);
-        background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(26,165,194,1) 100%);*/
     }
 
     main {
@@ -22,7 +20,7 @@
     .head {
         padding: 6px;
         display: grid;
-        grid-template-columns: 63px 1fr 170px 1fr 63px;
+        grid-template-columns: 58px 1fr 170px 1fr 58px;
         background-color: black;
     }
     .menu {
@@ -39,9 +37,11 @@
         border-radius: 10px;
         color: black;
         font-size: 40px;
+        background-color: #334155;
     }
     .img {
-        margin: auto;
+        display: inline-block;
+        vertical-align: top;
         max-width: 103%;
         max-height: 103%;
     }
