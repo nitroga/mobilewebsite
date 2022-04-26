@@ -7,11 +7,14 @@
     }
 
     body {
-        background: rgb(9,9,121);
-        background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(26,165,194,1) 100%);
+        background-color: #1e293b;
+        /*background: rgb(9,9,121);
+        background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(26,165,194,1) 100%);*/
     }
 
     main {
+        height: 100%;
+        width: 100%;
         text-align: center;
         display: grid;
         grid-template-rows: 70px 15px 305px 15px 185px 15px 185px 20px 100px;
