@@ -32,21 +32,49 @@
         display: flex;
         font-size: 33px;
         align-items: center;    
+        text-shadow: 0.2vh 0.2vh #cdd8e8;
     }
     .button {
         border-radius: 10px;
         color: black;
         font-size: 40px;
         background-color: #334155;
+        box-shadow: 0.3vh 0.3vh #334155;
+        border: 2px solid black;
+        transition-duration: 0.5s;
+    }
+    .button:active {
+        transform: translate(0.3vh, 0.3vh);
+        box-shadow: none;
+    }
+    .mainPart {
+        background-color: black;
+        display: grid;
+        grid-template: 8px 55px 1fr 8px / 8px 1fr 8px;
+    }
+    .socials {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr 55px) 1fr;
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    .socialIcon {
+        background-color: #334155;
+        border: 2px solid #5f708f;
+        box-shadow: 0.5vh 0.5vh #334155;
+        transition-duration: 0.5s;
+    }
+    .socialIcon:active {
+        transform: translate(0.5vh, 0.5vh);
+        box-shadow: none;
     }
     .img {
         display: inline-block;
         vertical-align: top;
-        max-width: 103%;
-        max-height: 103%;
+        max-width: 100%;
+        max-height: 100%;
     }
     .info {
-        font-size: 22px;
+        font-size: 20px;
         padding: 8px;
         background-color: black;
     }
