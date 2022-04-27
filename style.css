@@ -18,9 +18,10 @@
         grid-template-rows: 70px 15px 305px 15px 185px 15px 185px 20px 100px;
     }
     .head {
-        padding: 6px;
+        padding-top: 6px;
+        padding-bottom: 6px;
         display: grid;
-        grid-template-columns: 58px 1fr 170px 1fr 58px;
+        grid-template-columns: 6px 58px 1fr 170px 1fr 58px 6px;
         background-color: black;
     }
     .menu {
