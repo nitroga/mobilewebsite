@@ -18,6 +18,7 @@
         grid-template-rows: 70px 15px 305px 15px 185px 15px 185px 20px 100px;
     }
     .head {
+        width: 97%;
         padding: 6px;
         display: grid;
         grid-template-columns: 58px 1fr 170px 1fr 58px;
