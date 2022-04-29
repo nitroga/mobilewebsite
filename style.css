@@ -20,7 +20,7 @@
     .head {
         padding: 6px;
         display: grid;
-        grid-template-columns: 58px 1fr 170px 1fr 58px;
+        grid-template-columns: 70px 1fr 160px 1fr 70px;
         background-color: black;
     }
     .menu {
