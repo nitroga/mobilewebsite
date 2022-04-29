@@ -27,6 +27,7 @@
         color: black;
         display: grid;
         grid-template-columns: 85px 10px 1fr;
+        grid-column: 3/4;
     }
     .menu-text {
         display: flex;
