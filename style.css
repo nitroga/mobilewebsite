@@ -22,8 +22,9 @@
         display: grid;
         grid-template-columns: 70px 1fr 160px 1fr 70px;
         background-color: black;
+        z-index: 1;
     }
-    .menu {
+    .menuButton {
         color: black;
         display: grid;
         grid-template-columns: 85px 10px 1fr;
@@ -57,11 +58,11 @@
     .mainPart {
         background-color: black;
         display: grid;
-        grid-template: 8px 55px 10px 1fr 8px / 8px 1fr 8px;
+        grid-template: 8px 55px 15px 1fr 8px / 8px 1fr 8px;
     }
     .socials {
         display: grid;
-        grid-template-columns: repeat(5, 1fr 55px) 1fr;
+        grid-template-columns: repeat(5, 1fr 60px) 1fr;
         grid-area: 2 / 2 / 3 / 3;
     }
     .socialIcon {
@@ -83,7 +84,7 @@
     }
     .video {
         display: grid;
-        grid-template-rows: 30px 1fr;
+        grid-template-rows: 30px 6px 1fr;
         grid-area: 4 / 2 / 5 / 3;
         background-color: #334155;
         border: 2px solid #5f708f;
@@ -92,6 +93,28 @@
         font-size: 20px;
         padding: 8px;
         background-color: black;
+    }
+    .videoMedia {
+        grid-row: 3 / 4;
+    }
+    .settings {
+        position: absolute;
+        width: 96%;
+        height: 30%;
+        background-color: black;
+        transition-duration: 1s;
+    }
+    .menu {
+        position: absolute;
+        width: 96%;
+        height: 25%;
+        background-color: black; 
+    }
+    .hidden {
+        display: none;
+    }
+    .pos {
+        top: 70px;
     }
 /*}*/
 
