@@ -16,14 +16,14 @@
             <h1>Quick Links</h1>
             <button class="quickLinkButton">Profile</button>
         </div>
-        <div class="profile pos">
+        <div class="profile hidden">
             <h1 style="margin-bottom: 0">Log In</h1>
             <form class="logIn">
                 <label style="margin-top: 3%;"><u>Username</u></label>
-                <input style="background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" type="text" placeholder="Username" name="username" required>
+                <input class="username" style="background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" type="text" placeholder="Username" name="username" required>
                 <label style="margin-top: 3%;"><u>Password</u></label>
-                <input style="background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" type="password" placeholder="Password" name="password" required>
-                <button style="background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" type="submit">Login</button>
+                <input class="password" style="background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" type="password" placeholder="Password" name="password" required>
+                <button onclick="logIn()" style="background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" type="submit">Login</button>
                 <p style="margin-top: 5%;">Don't have an account?</p>
                 <a style="margin-top: 5%;" href="#">Click to create account</a>
             </form>

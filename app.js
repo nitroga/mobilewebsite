@@ -32,3 +32,9 @@ const settingsMove = [
 const animationDuration = {
     duration: 700,
 }
+
+function logIn() {
+    if(document.querySelector(".username").value == "alex" && document.querySelector(".password").value == "alex") {
+        alert("logged in yay")
+    }
+}
