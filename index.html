@@ -10,20 +10,33 @@
 </head>
     <body>
         <div class="settings hidden">
-            
+            <h1>Settings</h1>
         </div>
         <div class="menu hidden">
-
+            <h1>Quick Links</h1>
+            <button class="quickLinkButton">Profile</button>
+        </div>
+        <div class="profile pos">
+            <h1 style="margin-bottom: 0">Log In</h1>
+            <form class="logIn">
+                <label style="margin-top: 3%;"><u>Username</u></label>
+                <input style="background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" type="text" placeholder="Username" name="username" required>
+                <label style="margin-top: 3%;"><u>Password</u></label>
+                <input style="background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" type="password" placeholder="Password" name="password" required>
+                <button style="background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" type="submit">Login</button>
+                <p style="margin-top: 5%;">Don't have an account?</p>
+                <a style="margin-top: 5%;" href="#">Click to create account</a>
+            </form>
         </div>
         <main>
             <div class="head">
                 <img src="settings.png" alt="settings" class="button img" onclick="displaySettings()">
                 <div class="menuButton">
-                    <button class="button">☰</button>
+                    <button class="button" onclick="displayMenu()">☰</button>
                     <div></div>
                     <div class="menu-text">Menu</div>
                 </div>
-                <img class="button img" style="grid-column: 5/6;" src="profile.png" alt="profile">
+                <img class="button img" style="grid-column: 5/6;" src="profile.png" alt="profile" onclick="displayProfile()">
             </div>
             <div></div>
             <div class="mainPart">
@@ -31,11 +44,17 @@
                     <div></div>
                     <div class="socialIcon"></div>
                     <div></div>
-                        <img class="socialIcon img" src="youtube.png" alt="youtube">
+                        <a href="https://www.youtube.com/">
+                            <img class="socialIcon img" src="youtube.png" alt="youtube">
+                        </a>
                     <div></div>
-                        <img class="socialIcon img" src="twitch.png" alt="twitch">
+                        <a href="https://www.twitch.tv/">
+                            <img class="socialIcon img" src="twitch.png" alt="twitch">
+                        </a>
                     <div></div>
-                        <img class="socialIcon img" src="twitter.png" alt="twitter">     
+                        <a href="https://twitter.com/explore">
+                            <img class="socialIcon img" src="twitter.png" alt="twitter">     
+                        </a>
                     <div></div>
                     <div class="socialIcon"></div>
                 </div>
