@@ -4,6 +4,7 @@
         text-align: center;
         color: #cdd8e8;
         border-radius: 15px;
+        text-decoration: none;
     }
 
     body {
@@ -13,9 +14,24 @@
     main {
         height: 100%;
         width: 100%;
-        text-align: center;
         display: grid;
         grid-template-rows: 70px 15px 305px 15px 185px 15px 185px 20px 100px;
+    }
+    .profileMain {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 70px 15px 700px;
+    }
+    .profileMainPart {
+        background-color: black;
+    }
+    .signUp {
+        background-color: #334155;
+        border: 2px solid #5f708f;
+        height: 400px;
+        margin: 3%;
+        grid-template-rows: 60px 1fr;
     }
     .head {
         padding: 6px;
@@ -64,6 +80,7 @@
         font-size: 25px;
         border: 2px solid black;
         transition-duration: 0.7s;
+        margin-bottom: 3%;
     }
     .quickLinkButton:active {
         transform: translate(0.3vh, 0.3vh);
@@ -144,6 +161,14 @@
         display: grid;
         grid-template-rows: repeat(7, 17%);
     }
+    .signUpForm {
+        margin: auto;
+        align-self: center;
+        width: 70%;
+        font-size: 20px;
+        display: grid;
+        grid-template-rows: repeat(9, 11%);
+    }
 /*}*/
 
    ::-webkit-scrollbar {
@@ -160,4 +185,8 @@
   
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
+  }
+
+  ::placeholder {
+    color: #cdd8e8b9;
   }
