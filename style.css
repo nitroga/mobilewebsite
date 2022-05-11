@@ -138,13 +138,13 @@
     .menu {
         position: absolute;
         width: 95.7%;
-        height: 25%;
+        height: 200px;
         background-color: black; 
     }
     .profile {
         position: absolute;
         width: 95.7%;
-        height: 40%;
+        height: 325px;
         background-color: black; 
     }
     .hidden {
