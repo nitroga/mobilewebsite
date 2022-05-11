@@ -191,7 +191,6 @@
         grid-column: 1 / 2;
     }
     .previewBox {
-        background-color: #334155;
         border: 2px solid #5f708f;
         margin: 5px;
     }
@@ -207,7 +206,7 @@
     }
     .longShopImg {
         object-fit: cover;
-        width: 87%;
+        width: 82px;
         height: 170px;
     }
     .goShop {
