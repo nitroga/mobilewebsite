@@ -204,12 +204,18 @@
         width: 90%;
         height: 100px;
     }
+    .longShopImg {
+        object-fit: cover;
+        width: 87%;
+        height: 170px;
+    }
     .goShop {
         background-color: #334155;
         box-shadow: 0.3vh 0.3vh #334155;
         border: 2px solid black;
-        line-height: 45px;
+        line-height: 40px;
         font-size: 23px;
+        margin: 3px;
     }
     .goShop span {
         position: relative;
