@@ -170,20 +170,39 @@
         grid-template-rows: repeat(9, 11%);
     }
     .shopPreview {
-        grid-row: 5 / 6;
+        grid-area: 5 / 1 / 6 / 2;
         background: black;
         display: grid;
         grid-template-columns: 30% 3.5% 1fr;
-        padding: 2.5%;
+        padding: 1%;
     }
     .shopBox, .smallShopBox {
         background-color: #334155;
         border: 2px solid #5f708f;
     }
+    .shopBox {
+        display: grid;
+        grid-template: 1fr 1fr / 1fr 1fr;
+        grid-column: 3 / 4;
+    }
     .smallShopBox {
         display: grid;
         grid-template-rows: 50px 1fr;
-
+    }
+    .previewBox {
+        background-color: #334155;
+        border: 2px solid #5f708f;
+        margin: 5px;
+    }
+    .shopImg {
+        object-fit: cover;
+        width: 94%;
+        max-height: 100px;
+    }
+    .smallShopImg {
+        object-fit: cover;
+        width: 90%;
+        height: 100px;
     }
     .goShop {
         background-color: #334155;
