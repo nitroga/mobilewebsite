@@ -15,7 +15,7 @@
         height: 100%;
         width: 100%;
         display: grid;
-        grid-template-rows: 70px 15px 305px 15px 185px 15px 185px 20px 100px;
+        grid-template-rows: 70px 15px 305px 15px 240px 15px 130px 20px 100px;
     }
     .profileMain {
         height: 100%;
@@ -169,6 +169,47 @@
         display: grid;
         grid-template-rows: repeat(9, 11%);
     }
+    .shopPreview {
+        background: black;
+        display: grid;
+        grid-template-columns: 30% 3.5% 1fr;
+        padding: 2.5%;
+    }
+    .shopBox, .smallShopBox {
+        background-color: #334155;
+        border: 2px solid #5f708f;
+    }
+    .smallShopBox {
+        display: grid;
+        grid-template-rows: 50px 1fr;
+
+    }
+    .goShop {
+        background-color: #334155;
+        box-shadow: 0.3vh 0.3vh #334155;
+        border: 2px solid black;
+        line-height: 45px;
+        font-size: 23px;
+    }
+    .goShop span {
+        position: relative;
+        transition: 0.5s;
+      }
+      .goShop span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        transition: 0.5s;
+      }
+      
+      .goShop:hover span {
+        padding-right: 25px;
+      }
+      
+      .goShop:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
 /*}*/
 
    ::-webkit-scrollbar {
