@@ -173,7 +173,7 @@
         grid-area: 5 / 1 / 6 / 2;
         background: black;
         display: grid;
-        grid-template-columns: 30% 3.5% 1fr;
+        grid-template-columns: 100px 3.5% 1fr;
         padding: 1%;
     }
     .shopBox, .smallShopBox {
@@ -188,6 +188,7 @@
     .smallShopBox {
         display: grid;
         grid-template-rows: 50px 1fr;
+        grid-column: 1 / 2;
     }
     .previewBox {
         background-color: #334155;
