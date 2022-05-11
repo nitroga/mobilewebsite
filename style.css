@@ -170,6 +170,7 @@
         grid-template-rows: repeat(9, 11%);
     }
     .shopPreview {
+        grid-row: 5 / 6;
         background: black;
         display: grid;
         grid-template-columns: 30% 3.5% 1fr;
