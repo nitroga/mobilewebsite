@@ -17,6 +17,14 @@
         display: grid;
         grid-template-rows: 70px 15px 305px 15px 240px 15px 240px 20px 100px;
     }
+    .searchBar {
+        background-color: #334155;
+        border: 2px solid #5f708f;
+        width: 70%;
+        font-size: 80%;
+        margin: auto;
+        margin-top: 1.5%;
+    }
     .shopMain {
         height: 100%;
         width: 100%;
@@ -27,16 +35,45 @@
         background-color: #334155;
         border: 2px solid #5f708f;
         margin: 5px;
+        display: grid;
+        grid-template-rows: 30px repeat(5, 1fr);
+    }
+    .com {
+        border: 2px solid #5f708f;
+        margin: 3px;
     }
     .merchPage {
         background-color: #334155;
         border: 2px solid #5f708f;
         margin: 5px;
+        display: grid;
+        grid-template-rows: 30px 1fr;
+    }
+    .merchPageGrid {
+        display: grid;
+        grid-template: repeat(4, 1fr) / 1fr 1fr;
+    }
+    .merch {
+        border: 2px solid #5f708f;
+        margin: 1.5%;
     }
     .itemsPage {
+        display: grid;
+        grid-template-rows: 30px 500px;
         background-color: #334155;
         border: 2px solid #5f708f;
         margin: 5px;
+    }
+    .itemsScroll {
+
+        border: 2px solid #5f708f;
+        margin: 5px;
+        overflow-y: scroll;
+    }
+    .itemBox {
+        border: 2px solid #5f708f;
+        margin: 2%;
+        height: 100px;
     }
     .profileMain {
         height: 100%;
