@@ -17,6 +17,10 @@
         display: grid;
         grid-template-rows: 70px 15px 305px 15px 240px 15px 240px 20px 100px;
     }
+    .a {
+        color: rgb(0, 174, 255);
+        text-decoration: underline;
+    }
     .searchBar {
         background-color: #334155;
         border: 2px solid #5f708f;
@@ -36,7 +40,7 @@
         border: 2px solid #5f708f;
         margin: 5px;
         display: grid;
-        grid-template-rows: 30px repeat(5, 1fr);
+        grid-template-rows: 30px 1fr;
     }
     .com {
         border: 2px solid #5f708f;
@@ -65,15 +69,27 @@
         margin: 5px;
     }
     .itemsScroll {
-
         border: 2px solid #5f708f;
         margin: 5px;
         overflow-y: scroll;
     }
     .itemBox {
+        display: grid;
+        grid-template-columns: 1fr 100px;
         border: 2px solid #5f708f;
         margin: 2%;
-        height: 100px;
+        height: 130px;
+        padding: 1%;
+    }
+    .itemImg {
+        object-fit: cover;
+        width: 100%;
+        max-height: 130px;
+    }
+    .merchImg {
+        object-fit: contain;
+        max-width: 100%;
+        max-height: 100%;
     }
     .profileMain {
         height: 100%;
