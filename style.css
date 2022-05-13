@@ -247,16 +247,18 @@
     .newsBoxScrolling {
         background-color: #334155;
         border: 2px solid #5f708f;
+        overflow-y: scroll;
     }
     .newsBox {
         display: grid;
         grid-template-columns: 1fr 140px;
-        height: 180px;
+        height: 170px;
         border: 2px solid #5f708f;
+        margin: 5px;
     }
     .newsBoxImg {
         object-fit: cover;
-        max-height: 180px;
+        max-height: 170px;
         width: 140px;
     }
 /*}*/
