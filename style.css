@@ -17,19 +17,57 @@
         display: grid;
         grid-template-rows: 70px 15px 305px 15px 240px 15px 240px 20px 100px;
     }
+    .shopMain {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 70px 15px 595px 15px 100px;
+    }
+    .comPage {
+        background-color: #334155;
+        border: 2px solid #5f708f;
+        margin: 5px;
+    }
+    .merchPage {
+        background-color: #334155;
+        border: 2px solid #5f708f;
+        margin: 5px;
+    }
+    .itemsPage {
+        background-color: #334155;
+        border: 2px solid #5f708f;
+        margin: 5px;
+    }
     .profileMain {
         height: 100%;
         width: 100%;
         display: grid;
-        grid-template-rows: 70px 15px 700px;
+        grid-template-rows: 70px 15px 510px 15px 100px;
     }
     .profileMainPart {
         background-color: black;
     }
+    .shopMainPart {
+        display: grid;
+        grid-template-rows: 55px 1fr;
+        background-color: black;
+    }
+    .switchShop {
+        display: grid;
+        grid-template-columns: 25% 1fr 42% 1fr 25%;
+        background-color: #334155;
+        border: 2px solid #5f708f;
+        margin: 5px;
+    }
+    .switchShopButton {
+        background-color: #334155;
+        border: 2px solid #5f708f;
+        font-size: 20px;
+    }
     .signUp {
         background-color: #334155;
         border: 2px solid #5f708f;
-        height: 400px;
+        height: 480px;
         margin: 3%;
         grid-template-rows: 60px 1fr;
     }

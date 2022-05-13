@@ -25,6 +25,24 @@ function displayProfile() {
     setTimeout(() => { document.querySelector(".profile").classList.toggle("pos"); }, 410);
 }
 
+function displayCom() {
+    document.querySelector(".comPage").classList.remove("hidden");
+    document.querySelector(".merchPage").classList.add("hidden");
+    document.querySelector(".itemsPage").classList.add("hidden");
+}
+
+function displayMerch() {
+    document.querySelector(".comPage").classList.add("hidden");
+    document.querySelector(".merchPage").classList.remove("hidden");
+    document.querySelector(".itemsPage").classList.add("hidden");
+}
+
+function displayItems() {
+    document.querySelector(".comPage").classList.add("hidden");
+    document.querySelector(".merchPage").classList.add("hidden");
+    document.querySelector(".itemsPage").classList.remove("hidden");
+}
+
 const settingsMove = [
     { transform: "translate(0, 53px)" }
 ];
