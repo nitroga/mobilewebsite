@@ -352,6 +352,16 @@
         max-height: 170px;
         width: 140px;
     }
+    .selected {
+        animation: color-change 5s infinite;
+        text-decoration: underline;
+      }
+      
+      @keyframes color-change {
+        0% { color: rgb(77, 148, 255); }
+        50% { color: rgb(54, 107, 252); }
+        100% { color: rgb(77, 148, 255); }
+      }
 /*}*/
 
    ::-webkit-scrollbar {

@@ -29,18 +29,27 @@ function displayCom() {
     document.querySelector(".comPage").classList.remove("hidden");
     document.querySelector(".merchPage").classList.add("hidden");
     document.querySelector(".itemsPage").classList.add("hidden");
+    document.querySelector(".c").classList.add("selected");
+    document.querySelector(".m").classList.remove("selected");
+    document.querySelector(".i").classList.remove("selected");
 }
 
 function displayMerch() {
     document.querySelector(".comPage").classList.add("hidden");
     document.querySelector(".merchPage").classList.remove("hidden");
     document.querySelector(".itemsPage").classList.add("hidden");
+    document.querySelector(".c").classList.remove("selected");
+    document.querySelector(".m").classList.add("selected");
+    document.querySelector(".i").classList.remove("selected");
 }
 
 function displayItems() {
     document.querySelector(".comPage").classList.add("hidden");
     document.querySelector(".merchPage").classList.add("hidden");
     document.querySelector(".itemsPage").classList.remove("hidden");
+    document.querySelector(".c").classList.remove("selected");
+    document.querySelector(".m").classList.remove("selected");
+    document.querySelector(".i").classList.add("selected");
 }
 
 const settingsMove = [
