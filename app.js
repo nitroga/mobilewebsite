@@ -4,7 +4,7 @@ function displaySettings() {
         document.querySelector(".settings").classList.toggle("pos");
     }
     document.querySelector(".settings").animate(settingsMove, animationDuration);
-    setTimeout(() => { document.querySelector(".settings").classList.toggle("pos"); }, 710);
+    setTimeout(() => { document.querySelector(".settings").classList.toggle("pos"); }, 410);
 }
 
 function displayMenu() {
@@ -13,7 +13,7 @@ function displayMenu() {
         document.querySelector(".menu").classList.toggle("pos");
     }
     document.querySelector(".menu").animate(settingsMove, animationDuration);
-    setTimeout(() => { document.querySelector(".menu").classList.toggle("pos"); }, 710);
+    setTimeout(() => { document.querySelector(".menu").classList.toggle("pos"); }, 410);
 }
 
 function displayProfile() {
@@ -22,7 +22,7 @@ function displayProfile() {
         document.querySelector(".profile").classList.toggle("pos");
     }
     document.querySelector(".profile").animate(settingsMove, animationDuration);
-    setTimeout(() => { document.querySelector(".profile").classList.toggle("pos"); }, 710);
+    setTimeout(() => { document.querySelector(".profile").classList.toggle("pos"); }, 410);
 }
 
 const settingsMove = [
@@ -30,7 +30,7 @@ const settingsMove = [
 ];
 
 const animationDuration = {
-    duration: 700,
+    duration: 400,
 }
 
 function logIn() {

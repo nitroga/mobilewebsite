@@ -15,7 +15,7 @@
         height: 100%;
         width: 100%;
         display: grid;
-        grid-template-rows: 70px 15px 305px 15px 240px 15px 130px 20px 100px;
+        grid-template-rows: 70px 15px 305px 15px 240px 15px 240px 20px 100px;
     }
     .profileMain {
         height: 100%;
@@ -177,6 +177,7 @@
         padding: 1%;
     }
     .shopBox, .smallShopBox {
+        position: relative;
         background-color: #334155;
         border: 2px solid #5f708f;
     }
@@ -236,6 +237,28 @@
         opacity: 1;
         right: 0;
       }
+    .newsPreview {
+        grid-area: 7 / 1 / 8 / 2;
+        background: black;
+        display: grid;
+        grid-template-rows: 50px 1fr;
+        padding: 1%;
+    }
+    .newsBoxScrolling {
+        background-color: #334155;
+        border: 2px solid #5f708f;
+    }
+    .newsBox {
+        display: grid;
+        grid-template-columns: 1fr 140px;
+        height: 180px;
+        border: 2px solid #5f708f;
+    }
+    .newsBoxImg {
+        object-fit: cover;
+        max-height: 180px;
+        width: 140px;
+    }
 /*}*/
 
    ::-webkit-scrollbar {
