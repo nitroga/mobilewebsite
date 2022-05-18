@@ -11,6 +11,12 @@
         background-color: #1e293b;
     }
 
+    h2 {
+        font-size: 25px;
+        text-decoration: underline;
+        margin-top: 10px;
+    }
+
     main {
         height: 100%;
         width: 100%;
@@ -43,8 +49,11 @@
         grid-template-rows: 30px 1fr;
     }
     .com {
-        border: 2px solid #5f708f;
-        margin: 3px;
+        display: grid;
+        grid-template-rows: repeat(6, 35px) 150px 35px;
+        margin: auto;
+        width: 80%;
+        height: 100%;
     }
     .merchPage {
         background-color: #334155;

@@ -52,6 +52,10 @@ function displayItems() {
     document.querySelector(".i").classList.add("selected");
 }
 
+function request() {
+    alert("We will contact you on email as soon as we can to discuss further")
+}
+
 const settingsMove = [
     { transform: "translate(0, 53px)" }
 ];
