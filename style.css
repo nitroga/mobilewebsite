@@ -17,6 +17,13 @@
         margin-top: 10px;
     }
 
+    input {
+        font-size: 15px; 
+        background-color: #334155; 
+        border: 2px solid black; 
+        box-shadow: 0.3vh 0.3vh #334155;
+    }
+
     main {
         height: 100%;
         width: 100%;
@@ -371,22 +378,22 @@
         50% { color: rgb(54, 107, 252); }
         100% { color: rgb(77, 148, 255); }
       }
-/*}*/
+
 
    ::-webkit-scrollbar {
     width: 12px;
   }
   
   ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
+    background: #334155;
+}
   
   ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #5f708f;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #6481b6;
   }
 
   ::placeholder {

@@ -21,10 +21,10 @@
             <h1 style="margin-bottom: 0">Log In</h1>
             <form class="logIn">
                 <label style="margin-top: 3%;"><u>Username</u></label>
-                <input class="username" style="background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" type="text" placeholder="Username" name="username" required>
+                <input class="username"  type="text" placeholder="Username" name="username" required>
                 <label style="margin-top: 3%;"><u>Password</u></label>
-                <input class="password" style="background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" type="password" placeholder="Password" name="password" required>
-                <button onclick="logIn()" style="background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" type="submit">Login</button>
+                <input class="password" type="password" placeholder="Password" name="password" required>
+                <button onclick="logIn()"  type="submit">Login</button>
                 <p style="margin-top: 5%;">Don't have an account?</p>
                 <a style="margin-top: 5%;" href="profile.html">Click to create account</a>
             </form>
@@ -49,13 +49,12 @@
                     <button class="switchShopButton i" onclick="displayItems()">Items</button>
                 </div>
                 <div class="comPage">
-                    <input class="searchBar" type="text" placeholder="Search">
                     <form class="com">
                         <h2>Request Commission</h2>
                         <label style="margin-top: 3%;"><u>Name</u></label>
-                        <input class="username" style="font-size: 15px; background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" type="text" placeholder="Username" name="username" required>
+                        <input class="username" type="text" placeholder="Username" name="username" required>
                         <label style=" margin-top: 3%;"><u>Email</u></label>
-                        <input class="password" style="font-size: 15px; background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" type="email" placeholder="E-mail" name="email" required>
+                        <input class="password" type="email" placeholder="E-mail" name="email" required>
                         <label style="margin-top: 3%;"><u>Request</u></label>
                         <textarea style="resize: none; font-size: 18px; background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" name="request" minlength="40" placeholder="Please explain as thoroughly as possible" required></textarea>
                         <button onclick="request()" style="background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" type="submit">Request Commission</button>   
