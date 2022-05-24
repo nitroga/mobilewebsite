@@ -24,7 +24,7 @@
                 <input class="username"  type="text" placeholder="Username" name="username" required>
                 <label style="margin-top: 3%;"><u>Password</u></label>
                 <input class="password" type="password" placeholder="Password" name="password" required>
-                <button onclick="logIn()"  type="submit">Login</button>
+                <button onclick="logIn()"  type="submit">Log In</button>
                 <p style="margin-top: 5%;">Don't have an account?</p>
                 <a style="margin-top: 5%;" href="profile.html">Click to create account</a>
             </form>
@@ -59,6 +59,10 @@
                         <textarea style="resize: none; font-size: 18px; background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" name="request" minlength="40" placeholder="Please explain as thoroughly as possible" required></textarea>
                         <button onclick="request()" style="background-color: #334155; border: 2px solid black; box-shadow: 0.3vh 0.3vh #334155;" type="submit">Request Commission</button>   
                     </form>
+                    <div class="comConfirm hidden" style="padding: 3%;">
+                        <h1 style="font-size: 25px;">Commission Submitted</h1>
+                        <h3 style="font-size: 20px;">We have recieved your request and will be contacting you soon</h3>
+                    </div>
                 </div>
                 <div class="merchPage hidden">
                     <input class="searchBar" type="text" placeholder="Search">

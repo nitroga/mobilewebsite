@@ -53,7 +53,8 @@ function displayItems() {
 }
 
 function request() {
-    alert("We will contact you on email as soon as we can to discuss further")
+    document.querySelector(".comConfirm").classList.toggle("hidden");
+    document.querySelector(".com").classList.toggle("hidden");
 }
 
 const settingsMove = [
